@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:root{
+
+    --colorinput:#8EA7E9;
+    --buttoncolor:#7286D3;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "IBM Plex Sans Hebrew", serif;
+
+}
+
+.container{
+
+ width: 100%;
+ height: 100%;
+    display: flex;
+    padding: 1.5rem;
+    gap: 2rem;
+
+}
+
+.image{
+    flex: 1;
+    background-size: contain;
+   
+}
+
+.image img{
+    width: 100%;
+    height: 85%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+ }
+ 
+.form{
+    display: flex;
+    size: 100%;
+    flex: 1;
+    flex-direction: column;
+    /* background-color: blue; */
+
+}
+
+h1{
+
+font-size: 4rem;
+font-weight: 500;
+font-family: var(--font-family);
+line-height: 6rem;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+label{
+
+    font-size: 1.4rem;
+
+}
+input{
+
+    outline: none;
+    height: 3.5rem;
+    width: 90%;
+    font-size: 1.5rem;
+    font-family: var(--font-family);
+
+}
+
+.email {
+    width: 70%;
+    height: 4rem;
+    display: flex;
+    border: 0.1rem solid;
+    justify-content: space-around;
+    border-radius: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.image_email{
+
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+.lock{
+    width: 70%;
+    height: 4rem;
+    display: flex;
+    border: 0.1rem solid;
+    justify-content: space-around;
+    border-radius: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.label2{
+
+    margin-top: 2rem;
+    font-family: var(--font-family);
+}
+
+.image_lock{
+    width: 2rem;
+    height: 2rem;
+}
+
+form{
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+a{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin-left: 7rem;
+    font-family: var(--font-family);
+    color: #8EA7E9;
+
+
+}.divbutton{
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 4rem;
+}
+
+button{
+    width: 15rem;
+    height: 4rem;
+    border: 0.1rem solid;
+    border-radius: 2rem;
+    background-color: #7286D3;
+    color: white;
+    cursor: pointer;
+
+    
+
+}
+
+hr{
+
+    width: 25%;
+    height: 1px;
+    background-color:#9E9E9F;
+    margin-left: 2rem;
+
+}
+
+.ouavec{
+
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.google{
+
+    display: flex;
+    gap: 12rem;
+    margin-top: 5rem;
+    cursor: pointer;
+
+}
+.cercle{
+
+    width: 6rem;
+    height: 6rem;
+    border: 0.1rem solid;
+    border-radius: 50%;
+    color: #FFF2F28A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+
+    width:4rem;
+    height: 4rem;
+}
